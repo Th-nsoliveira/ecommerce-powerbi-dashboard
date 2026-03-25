@@ -116,11 +116,6 @@ O modelo segue o padrão **Star Schema**, com separação entre tabelas fato e d
 
 ---
 
-⚠️ O arquivo .pbix não foi incluído devido ao tamanho e uso de dados.
-Caso queira acessar ou discutir o projeto, entre em contato.
-
----
-
 ## 📌 Observações
 
 Os dados utilizados são públicos e o projeto foi desenvolvido para fins de estudo, prática de modelagem e composição de portfólio.
