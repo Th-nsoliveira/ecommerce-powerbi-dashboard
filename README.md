@@ -1,78 +1,103 @@
-# Brazilian E-Commerce Power BI Dashboard
+# 📊 E-Commerce Analytics | Power BI
 
-## Overview
-Projeto de análise de dados desenvolvido em Power BI com foco em vendas, logística, financeiro, produtos, sellers e monitoramento operacional de pedidos.
+## 🧠 Sobre o projeto
 
-## Objetivo
-Construir um dashboard gerencial para apoiar a tomada de decisão em um contexto de e-commerce, permitindo acompanhar indicadores de performance comercial, financeira e logística.
+Este projeto tem como objetivo desenvolver um modelo analítico completo para um e-commerce, permitindo análises de vendas, logística, pagamentos e satisfação dos clientes.
 
-## Principais análises
-- Visão geral de vendas
-- Logística e experiência do cliente
-- Produtos e sellers
-- Financeiro
-- Monitoramento de pedidos em andamento
+O foco foi aplicar boas práticas de **modelagem dimensional** e construir uma base escalável para dashboards no Power BI.
 
-## Modelagem de dados
-O modelo foi estruturado com base em tabelas fato e dimensão, respeitando a granularidade de pedidos, itens e pagamentos.
+---
 
-### Tabelas fato
-- FT_PEDIDOS
-- FT_ITEMPEDIDO
-- FT_PAGAMENTOS
+## 🏗️ Modelagem de Dados
 
-### Dimensões
-- DIM_CALENDARIO
-- DIM_CLIENTES
-- DIM_PRODUTOS
-- DIM_VENDEDORES
+O modelo segue o padrão **Star Schema**, com separação entre tabelas fato e dimensões:
 
-## KPIs monitorados
-- Faturamento total
-- Total de pedidos
-- Total de itens vendidos
-- Ticket médio
-- Pedidos cancelados
-- Entregas no prazo
-- Atraso médio
-- Tempo médio de entrega
-- Receita por categoria
-- Receita por seller
-- Receita por tipo de pagamento
-- Pedidos em risco de atraso
+### 🔹 Tabelas Fato
 
-## Ferramentas utilizadas
-- Power BI
-- Power Query
-- DAX
-- Modelagem dimensional
+* `FT_PEDIDOS` → nível de pedido
+* `FT_ITEMPEDIDO` → nível de item
+* `FT_PAGAMENTOS` → pagamentos por pedido
+* `FT_REVIEW` → avaliações dos clientes
 
-## Principais aprendizados
-- Diferença de granularidade entre pedidos, itens e pagamentos
-- Construção de medidas DAX com comparação temporal
-- Uso de Power Query para tratamento e padronização de dados
-- Criação de dashboards com foco analítico e operacional
+### 🔹 Dimensões
 
-## Imagens do dashboard
-### Visão Geral
-![Visão Geral](docs/imagens/overview.png)
+* `DIM_CLIENTES`
+* `DIM_PRODUTOS`
+* `DIM_VENDEDOR`
+* `DIM_CALENDARIO`
 
-### Logística & Experiência
-![Logística](docs/imagens/logistica.png)
+---
 
-### Produtos & Sellers
-![Produtos & Sellers](docs/imagens/produtos-sellers.png)
+## 📊 KPIs Monitorados
 
-### Financeiro
-![Financeiro](docs/imagens/financeiro.png)
+* 💰 **Faturamento total**
+* 🛒 **Total de pedidos**
+* 📦 **Total de itens vendidos**
+* 🎯 **Ticket médio**
+* ❌ **Pedidos cancelados**
+* 🚚 **Entregas no prazo**
+* ⏱️ **Atraso médio**
+* 📅 **Tempo médio de entrega**
+* 🧩 **Receita por categoria**
+* 🏪 **Receita por seller**
+* 💳 **Receita por tipo de pagamento**
+* ⚠️ **Pedidos em risco de atraso**
 
-### Monitoramento Operacional
-![Monitoramento](docs/imagens/monitoramento.png)
+---
 
-## Como abrir o projeto
+## 🛠️ Ferramentas Utilizadas
+
+*  **Power BI**
+*  **Power Query (M)**
+*  **DAX**
+*  **Modelagem Dimensional (Star Schema)**
+
+---
+
+## 🧠 Principais Aprendizados
+
+*  Entendimento de **granularidade** entre pedidos, itens e pagamentos
+*  Construção de **medidas DAX com análise temporal**
+*  Uso do **Power Query** para tratamento e padronização de dados
+*  Desenvolvimento de dashboards com foco **analítico e operacional**
+
+---
+
+## 📸 Imagens do Dashboard
+
+### 🔹 Capa
+<img width="1441" height="796" alt="Captura de tela 2026-03-24 230131" src="https://github.com/user-attachments/assets/7483ab4c-81d0-4596-b807-c417644970b5" />
+
+### 🔹 Visão Geral
+<img width="1443" height="806" alt="Captura de tela 2026-03-24 230949" src="https://github.com/user-attachments/assets/77deb8e6-f79a-4808-9396-d04b1129f623" />
+
+### 🔹 Logística & Experiência
+
+<img width="1442" height="810" alt="Captura de tela 2026-03-24 231112" src="https://github.com/user-attachments/assets/2a8720b8-6656-4869-a41f-0cf2ef0f5517" />
+
+Visão Detalhada
+
+<img width="1499" height="761" alt="Captura de tela 2026-03-24 231209" src="https://github.com/user-attachments/assets/12cf7e30-cf7f-4a08-a859-c537260de02d" />
+
+### 🔹 Produtos & Sellers
+
+<img width="1442" height="808" alt="Captura de tela 2026-03-24 232600" src="https://github.com/user-attachments/assets/ee051d10-f230-4555-8d77-8478f04e1c30" />
+
+### 🔹 Financeiro
+
+<img width="1445" height="811" alt="Captura de tela 2026-03-24 232645" src="https://github.com/user-attachments/assets/9b91e6a4-1c44-46b7-bcb6-7858b4fb9e06" />
+
+---
+
+## 🚀 Como abrir o projeto
+
 1. Baixe o arquivo `.pbix`
-2. Abra no Power BI Desktop
+2. Abra no **Power BI Desktop**
 3. Atualize as conexões de dados, se necessário
 
-## Observações
+---
+
+## 📌 Observações
+
 Os dados utilizados são públicos e o projeto foi desenvolvido para fins de estudo, prática de modelagem e composição de portfólio.
+
