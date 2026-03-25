@@ -69,23 +69,32 @@ O modelo segue o padrão **Star Schema**, com separação entre tabelas fato e d
 <img width="1441" height="796" alt="Captura de tela 2026-03-24 230131" src="https://github.com/user-attachments/assets/7483ab4c-81d0-4596-b807-c417644970b5" />
 
 ### 🔹 Visão Geral
+
 <img width="1443" height="806" alt="Captura de tela 2026-03-24 230949" src="https://github.com/user-attachments/assets/77deb8e6-f79a-4808-9396-d04b1129f623" />
 
 ### 🔹 Logística & Experiência
 
+
 <img width="1442" height="810" alt="Captura de tela 2026-03-24 231112" src="https://github.com/user-attachments/assets/2a8720b8-6656-4869-a41f-0cf2ef0f5517" />
 
-Visão Detalhada
+
+### Visão Detalhada
+
 
 <img width="1499" height="761" alt="Captura de tela 2026-03-24 231209" src="https://github.com/user-attachments/assets/12cf7e30-cf7f-4a08-a859-c537260de02d" />
 
+
 ### 🔹 Produtos & Sellers
+
 
 <img width="1442" height="808" alt="Captura de tela 2026-03-24 232600" src="https://github.com/user-attachments/assets/ee051d10-f230-4555-8d77-8478f04e1c30" />
 
+
 ### 🔹 Financeiro
 
+
 <img width="1445" height="811" alt="Captura de tela 2026-03-24 232645" src="https://github.com/user-attachments/assets/9b91e6a4-1c44-46b7-bcb6-7858b4fb9e06" />
+
 
 ---
 
