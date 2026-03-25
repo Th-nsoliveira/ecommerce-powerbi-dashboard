@@ -8,6 +8,24 @@ O foco foi aplicar boas práticas de **modelagem dimensional** e construir uma b
 
 ---
 
+## 🎯 Perguntas de negócio
+
+- Qual o impacto dos atrasos na satisfação do cliente?
+- Quais categorias geram mais receita?
+- Existe relação entre tipo de pagamento e cancelamento?
+- Quais sellers apresentam melhor performance logística?
+
+---
+
+## 💡 Principais Insights
+
+- Pedidos com atraso apresentaram menor avaliação média dos clientes
+- Cartão de crédito representa a maior parte do faturamento
+- Algumas categorias concentram grande volume de vendas, mas baixa margem
+- Há sellers com alto volume de vendas, porém com maior taxa de atraso
+
+---
+
 ## 🏗️ Modelagem de Dados
 
 O modelo segue o padrão **Star Schema**, com separação entre tabelas fato e dimensões:
