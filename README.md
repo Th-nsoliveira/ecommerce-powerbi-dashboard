@@ -1,6 +1,6 @@
-# E-Commerce Analytics | Power BI
+# 📊 E-Commerce Analytics | Power BI
 
-## Sobre o projeto
+##  Sobre o projeto
 
 Este projeto tem como objetivo desenvolver um modelo analítico completo para um e-commerce, permitindo análises de vendas, logística, pagamentos e satisfação dos clientes.
 
@@ -8,7 +8,7 @@ O foco foi aplicar boas práticas de **modelagem dimensional** e construir uma b
 
 ---
 
-## Perguntas de negócio
+##   Perguntas de negócio
 
 - Qual o impacto dos atrasos na satisfação do cliente?
 - Quais categorias geram mais receita?
@@ -26,7 +26,7 @@ O foco foi aplicar boas práticas de **modelagem dimensional** e construir uma b
 
 ---
 
-## Modelagem de Dados
+##   Modelagem de Dados
 
 O modelo segue o padrão **Star Schema**, com separação entre tabelas fato e dimensões:
 
@@ -63,7 +63,7 @@ O modelo segue o padrão **Star Schema**, com separação entre tabelas fato e d
 
 ---
 
-## 🛠️ Ferramentas Utilizadas
+##  Ferramentas Utilizadas
 
 *  **Power BI**
 *  **Power Query (M)**
@@ -72,7 +72,7 @@ O modelo segue o padrão **Star Schema**, com separação entre tabelas fato e d
 
 ---
 
-## 🧠 Principais Aprendizados
+##  Principais Aprendizados
 
 *  Entendimento de **granularidade** entre pedidos, itens e pagamentos
 *  Construção de **medidas DAX com análise temporal**
