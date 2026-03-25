@@ -116,11 +116,8 @@ O modelo segue o padrão **Star Schema**, com separação entre tabelas fato e d
 
 ---
 
-## 🚀 Como abrir o projeto
-
-1. Baixe o arquivo `.pbix`
-2. Abra no **Power BI Desktop**
-3. Atualize as conexões de dados, se necessário
+⚠️ O arquivo .pbix não foi incluído devido ao tamanho e uso de dados.
+Caso queira acessar ou discutir o projeto, entre em contato.
 
 ---
 
